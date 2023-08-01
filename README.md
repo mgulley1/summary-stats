@@ -1,2 +1,2 @@
 # summary-stats
-Finding summary statistics using Iris dataset
+Finding summary statistics using iris dataset
