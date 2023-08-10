@@ -54,3 +54,6 @@ summary_stats <- function(df){
 #### summary stats for iris data ####
 summary_stats(iris)
 # uses the summary_stats function on the iris data
+
+# check the first 6 rows of the data set
+head(iris)
