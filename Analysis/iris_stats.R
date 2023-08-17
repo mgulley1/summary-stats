@@ -57,3 +57,13 @@ summary_stats(iris)
 
 # check the first 6 rows of the data set
 head(iris)
+
+ggplot(data = iris, aes(x = Species, y = Sepal.Length,
+                        fill = Species)) +
+  geom_boxplot() +
+  stat_summary(fun = "mean", col = "yellow", shape = 18,
+               size = 0.6) +
+  labs(title = "Boxplots of sepal length for each species",
+       x = "Species", y = "Sepal Length")
+# creates a boxplots of sepal length for each species with
+# the mean sepal length marked as a yellow diamond
